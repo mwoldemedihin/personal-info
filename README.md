@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Requirement
+## React assessment
+This is a project meant to assess your level of understerstanding of ReactJS. Expect it to take no more than an a few hours. All you are provided is this instruction sheet and mock data provided in a separate file. Take your time, and follow the instructions below.
+
+## Instructions
+1. Bootstrap a new React project. Feel free to do it manually, or use a tool like [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html).
+
+2. The mock data is a set of questions which will need to be displayed in a form. Pull this data into the project however you see fit.
+
+3. Your react app should consist of one single page which displays this form. Each item of the data will need to be displayed in the correct order, and with the correct input type. The "displayOrder" property should be used to determine the order. The "type" property should be used to determine which type of input to show.
+4. Each field should display the label over the input, and the description to the right.  ***Only display the description of the currently selected input.*** 
+5. Create input handler functions to maintain the state of the form as the user inputs data.
+
+6. Styling is not necessary, but feel free to do so if you'd like.
+
+## *Bonus*
+1. Unit test your code with your choice of test frameworks.
+2. Use some type of data fetching mechanism to fetch the mock data.
